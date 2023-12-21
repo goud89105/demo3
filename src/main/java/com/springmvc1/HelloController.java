@@ -20,4 +20,12 @@ public class HelloController {
 		
 	}
 
+	@RequestMapping(value="/de", method=RequestMethod.GET)
+	public String demo1()
+	{
+		String s=hs.test();
+		return s;
+		
+	}
+
 }
